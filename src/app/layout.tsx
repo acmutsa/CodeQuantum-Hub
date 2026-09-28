@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
         <body className="min-h-full flex flex-col">
         <nav className="justify-between w-full bg-white h-[10vh]">
-          <ul className={"flex flex-row text-[1.5rem] sm:text-[2.5rem] gap-4 md:gap-14 text-black m-8 p-4 items-center"}>
+          <ul className={"flex flex-row text-[24px] sm:text-[38px] gap-4 md:gap-14 text-black m-8 p-4 items-center"}>
             <li>
               <a href={"#home"}>Home</a>
             </li>
@@ -49,7 +49,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 width={150}
                 height={150}
                 alt={"CodeQuantum logo"}
-                className="h-full w-full grow"
+                className="h-16 w-16 grow"
                 />
             </li>
           </ul>

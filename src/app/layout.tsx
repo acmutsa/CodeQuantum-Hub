@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 const calSans = Cal_Sans({
   weight: "400",
-  variable: "--font-cal-sans"
+  variable: "--font-cal-sans",
+  subsets: ["latin"]
 });
 
 
@@ -49,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 width={150}
                 height={150}
                 alt={"CodeQuantum logo"}
-                className="h-16 w-16 grow"
+                className="h-12.5 w-12.5 grow"
                 />
             </li>
           </ul>

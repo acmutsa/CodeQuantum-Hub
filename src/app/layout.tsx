@@ -32,8 +32,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       >
 
         <body className="min-h-full flex flex-col">
-        <nav className="justify-between w-full bg-white h-[10vh]">
-          <ul className={"flex flex-row text-[24px] sm:text-[38px] gap-4 md:gap-14 text-black m-8 p-4 items-center"}>
+        <nav className="justify-between w-full bg-white text-2xl">
+          <ul className={"flex flex-row gap-[2cqw] text-black p-4 items-center"}>
             <li>
               <a href={"#home"}>Home</a>
             </li>

@@ -2,7 +2,7 @@ export default function CodeQuantum(){
     return (
 
         <div className=" flex flex-col gap-[cqw] mx-auto overflow-y-auto h-screen">
-            <div className="text-center text-[2rem] font-bold px-8 py-16"> CODEQUANTUM </div>
+            <div className="text-center text-[2rem] md:text-[4rem] font-bold px-8 py-16"> CODEQUANTUM </div>
             <main className="text-[1rem] px-8">
                 <p className="pb-5">
                     CodeQuantum is a 12-hour, student-run hackathon hosted by the Association for Computing Machinery (ACM) at UTSA, with a history of working alongside ACM-W. CodeQuantum is an all inclusive event that aims to empower students from marginalized communities in tech, bring students together, and create a space where everyone can learn, build, and collaborate.

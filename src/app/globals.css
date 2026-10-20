@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #155dfc;
 }
 
 @theme inline {
@@ -10,6 +11,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-cal-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
 }
 /*
 @media (prefers-color-scheme: dark) {

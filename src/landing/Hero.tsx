@@ -8,7 +8,7 @@ export default function Hero() {
                     <h1 className={"text-6xl md:text-[10vw] text-foreground"} >
                         CQ
                     </h1>
-                    <div className={"flex flex-col gap-5 items-start w-fit"}>
+                    <div className={"flex flex-col gap-3 md:gap-5 items-start w-fit"}>
                         <h2 className={"text-4xl md:text-[4vw] text-foreground"}>
                             BUILD
                         </h2>

@@ -4,7 +4,7 @@ import { cn } from '@/src/lib/utils';
 import type { HackathonCardProps } from '@/src/lib/types';
 import Link from "next/link";
 
-const FALLBACK_LOGO = "/img/rh.svg";
+const FALLBACK_LOGO = "/cqlogo.svg";
 
 export default function HackathonCard({
                                           isCentered,

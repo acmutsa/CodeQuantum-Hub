@@ -4,14 +4,20 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary: #155dfc;
+  --border: #000000;
+  --accent: #155dfc;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
   --font-sans: var(--font-cal-sans);
   --font-mono: var(--font-geist-mono);
   --color-primary: var(--primary);
+  --animate-marquee: marquee var(--duration, 40s) linear infinite;
+  --animate-marquee-reverse: marquee-reverse var(--duration, 40s) linear infinite;
 }
 /*
 @media (prefers-color-scheme: dark) {
@@ -29,4 +35,22 @@ body {
 
 html {
   background: var(--background);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap, 2rem)));
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(calc(-100% - var(--gap, 2rem)));
+  }
+  to {
+    transform: translateX(0);
+  }
 }

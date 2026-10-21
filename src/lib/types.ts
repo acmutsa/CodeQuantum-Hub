@@ -11,12 +11,11 @@ export type HackathonCard = {
 export type SponsorsScrollerProps = {
     reverse?: boolean;
     sponsors: string[];
-    iteration: string;
+    year: number;
 };
 
 export type SponsorsProps = {
     sponsors?: string[];
-    iteration: string;
     year: number;
 };
 

@@ -8,6 +8,7 @@ import { calSans, poppins } from '@/src/lib/fonts';
 import c from '@/cq.hub.config';
 import type { HackathonCard as HackathonCardData } from '@/src/lib/types';
 import CodeQuantumInfo from "./CodeQuantumInfo";
+import Sponsors from "@/src/landing/Sponsors";
 
 const hackathons: HackathonCardData[] = c.hackathons;
 
@@ -89,7 +90,7 @@ export default function Iterations() {
                 </div>
 
                 <CodeQuantumInfo hackathonCard={highlighted} />
-                {/*<Sponsors sponsors={highlighted.sponsors} iteration={highlighted.iteration} year={highlighted.year} />*/}
+                <Sponsors sponsors={highlighted.sponsors} year={highlighted.year} />
 
             </div>
         </div>

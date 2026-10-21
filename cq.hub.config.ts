@@ -60,7 +60,7 @@ const config = {
             number: 3,
             name: "CodeQuantum 2026",
             year: 2026,
-            description: "Built around a high-adrenaline Formula 1 racing theme, this edition channeled the urgency and precision of a high-speed Grand Prix paddock. The event aimed to test endurance and quick decision-making, challenging builders to thrive under real-time pressure and engineer sharp, high-performance software.",
+            description: "Channeling a high-adrenaline Formula 1 theme, CodeQuantum 2026 brought an energetic, collaborative atmosphere to the weekend. Bringing together builders of all skill levels to tackle creative software challenges, including a special data-driven component, the event focused on rapid prototyping, seamless team collaboration, and engineering smart, high-performance solutions under the clock.",
             imgFormat: "png",
             photosLink: "#",
             sponsors: [

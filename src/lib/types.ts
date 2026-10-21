@@ -2,7 +2,6 @@ export type HackathonCard = {
     number: number;
     name: string;
     year: number;
-    iteration: string;
     description?: string;
     imgFormat: string;
     photosLink: string;

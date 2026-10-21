@@ -12,7 +12,7 @@ const config = {
     "hackathons": [
         {
             number: 0,
-            name: "CodeQuantum",
+            name: "CodeQuantum 2022",
             year: 2022,
             iteration: "I",
             description: "",
@@ -34,7 +34,7 @@ const config = {
         },
         {
             number: 1,
-            name: "Code Quantum Hack Day",
+            name: "Code Quantum 2024",
             year: 2024,
             iteration: "II",
             description: "",
@@ -47,7 +47,7 @@ const config = {
         },
         {
             number: 2,
-            name: "Code Quantum Down the Rabbit Hole",
+            name: "Code Quantum 2025",
             year: 2025,
             iteration: "III",
             description: "",
@@ -65,7 +65,7 @@ const config = {
         },
         {
             number: 3,
-            name: "Code Quantum",
+            name: "Code Quantum 2026",
             year: 2026,
             iteration: "IV",
             description: "",

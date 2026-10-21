@@ -14,7 +14,7 @@ export default function HackathonCard({
                                           cardSize
                                       }: HackathonCardProps) {
 
-    const logoSrc = `/logos/RH${hackathon.iteration}.${hackathon.imgFormat}`;
+    const logoSrc = `/logos/CQ${hackathon.year}.${hackathon.imgFormat}`;
     const [src, setSrc] = useState(FALLBACK_LOGO);
     // eslint-disable-next-line react-hooks/set-state-in-effect
     useEffect(() => { setSrc(logoSrc) }, [logoSrc]);
@@ -40,7 +40,7 @@ export default function HackathonCard({
         `
             }}
         >
-            <Link href={`https://${hackathon.iteration.toLowerCase()}.rowdyhacks.org`}>
+            <Link href={`https://${hackathon.year}.rowdyhacks.org`}>
                 <span className={cn("absolute right-[-2px] top-12 h-0.5 w-[70.71px] origin-top-right rotate-45", isCentered ? "bg-accent" : "bg-border")} />
 
                 <img

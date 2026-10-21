@@ -15,7 +15,7 @@ const config = {
             name: "CodeQuantum 2022",
             year: 2022,
             description: "",
-            imgFormat: "png",
+            imgFormat: "svg",
             photosLink: "#",
             sponsors: [
                 "dell",
@@ -36,7 +36,7 @@ const config = {
             name: "Code Quantum 2024",
             year: 2024,
             description: "",
-            imgFormat: "png",
+            imgFormat: "svg",
             photosLink: "#",
             sponsors: [
                 "acm-w",
@@ -48,7 +48,7 @@ const config = {
             name: "Code Quantum 2025",
             year: 2025,
             description: "",
-            imgFormat: "png",
+            imgFormat: "svg",
             photosLink: "#",
             sponsors: [
                 "break-thru-tech",

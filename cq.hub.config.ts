@@ -26,7 +26,7 @@ const config = {
                 "wolfram",
                 "interview-cake",
                 "mlh",
-                "standout-stickers",
+                "stand-out-stickers",
                 "acm-w",
                 "acm"
             ]
@@ -38,10 +38,6 @@ const config = {
             description: "Designed around a grounded return to grassroots campus hacking, this run was all about revitalizing local builder energy through a fast, scrappy 12-hour sprint. The mission centered on breaking students out of routine classroom theory and giving them a community launchpad to build practical software side by side.",
             imgFormat: "svg",
             photosLink: "#",
-            sponsors: [
-                "acm-w",
-                "acm"
-            ]
         },
         {
             number: 2,

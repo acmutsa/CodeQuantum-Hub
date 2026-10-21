@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Cal_Sans, Geist, Geist_Mono } from "next/font/google";
-import Image from "next/image"
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,9 +16,8 @@ const geistMono = Geist_Mono({
 const calSans = Cal_Sans({
   weight: "400",
   variable: "--font-cal-sans",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -27,14 +26,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-      <html
-          lang="en"
-          className={`${calSans.variable} h-full antialiased`}
-      >
-
-        <body className="min-h-full flex flex-col">
+    <html lang="en" className={`${calSans.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col">
         <nav className="justify-between w-full bg-white text-2xl">
-          <ul className={"flex flex-row gap-[2cqw] text-black p-4 items-center"}>
+          <ul
+            className={"flex flex-row gap-[2cqw] text-black p-4 items-center"}
+          >
             <li>
               <a href={"#home"}>Home</a>
             </li>
@@ -51,12 +48,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 height={150}
                 alt={"CodeQuantum logo"}
                 className="h-12.5 w-12.5 grow"
-                />
+              />
             </li>
           </ul>
         </nav>
         {children}
-        </body>
-      </html>
+      </body>
+    </html>
   );
 }

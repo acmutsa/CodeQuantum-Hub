@@ -17,7 +17,8 @@
   --font-mono: var(--font-geist-mono);
   --color-primary: var(--primary);
   --animate-marquee: marquee var(--duration, 40s) linear infinite;
-  --animate-marquee-reverse: marquee-reverse var(--duration, 40s) linear infinite;
+  --animate-marquee-reverse: marquee-reverse var(--duration, 40s) linear
+    infinite;
 }
 /*
 @media (prefers-color-scheme: dark) {

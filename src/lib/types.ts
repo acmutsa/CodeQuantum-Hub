@@ -1,33 +1,33 @@
 export type HackathonCard = {
-    number: number;
-    name: string;
-    year: number;
-    description?: string;
-    imgFormat: string;
-    photosLink: string;
-    sponsors?: string[];
+  number: number;
+  name: string;
+  year: number;
+  description?: string;
+  imgFormat: string;
+  photosLink: string;
+  sponsors?: string[];
 };
 
 export type SponsorsScrollerProps = {
-    reverse?: boolean;
-    sponsors: string[];
-    year: number;
+  reverse?: boolean;
+  sponsors: string[];
+  year: number;
 };
 
 export type SponsorsProps = {
-    sponsors?: string[];
-    year: number;
+  sponsors?: string[];
+  year: number;
 };
 
 export interface HackathonCardProps {
-    isCentered: boolean;
-    position: number;
-    hackathon: HackathonCard;
-    onSelect: () => void;
-    cardSize: number;
+  isCentered: boolean;
+  position: number;
+  hackathon: HackathonCard;
+  onSelect: () => void;
+  cardSize: number;
 }
 
 export type SocialLink = {
-    name: string;
-    link: string;
+  name: string;
+  link: string;
 };

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Cal_Sans, Geist, Geist_Mono } from "next/font/google";
-import Image from "next/image"
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,14 +27,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-      <html
-          lang="en"
-          className={`${calSans.variable} h-full antialiased`}
-      >
-
-        <body className="min-h-full flex flex-col">
+    <html lang="en" className={`${calSans.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col">
         <nav className="justify-between w-full bg-white text-2xl">
-          <ul className={"flex flex-row gap-[2cqw] text-black p-4 items-center"}>
+          <ul
+            className={"flex flex-row gap-[2cqw] text-black p-4 items-center"}
+          >
             <li>
               <a href={"#home"}>Home</a>
             </li>

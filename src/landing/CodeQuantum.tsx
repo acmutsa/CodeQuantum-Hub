@@ -1,4 +1,3 @@
-
 import { calSans, poppins } from "@/src/lib/fonts";
 
 export default function CodeQuantum() {

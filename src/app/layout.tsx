@@ -16,9 +16,8 @@ const geistMono = Geist_Mono({
 const calSans = Cal_Sans({
   weight: "400",
   variable: "--font-cal-sans",
-  subsets: ["latin"]
+  subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -49,12 +48,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 height={150}
                 alt={"CodeQuantum logo"}
                 className="h-12.5 w-12.5 grow"
-                />
+              />
             </li>
           </ul>
         </nav>
         {children}
-        </body>
-      </html>
+      </body>
+    </html>
   );
 }

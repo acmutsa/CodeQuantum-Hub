@@ -24,7 +24,7 @@ export default function Sponsors({ sponsors, year }: SponsorsProps) {
           We are still looking for sponsors for this event! If you are
           interested, check out{" "}
           <a
-            href={`https://${year}.rowdyhacks.org`}
+            href={`https://${year}.cqhacks.org`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline-offset-2 hover:underline"

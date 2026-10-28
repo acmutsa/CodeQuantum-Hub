@@ -41,7 +41,7 @@ export default function HackathonCard({
         `,
       }}
     >
-      <Link href={`https://${hackathon.year}.rowdyhacks.org`}>
+      <Link href={`https://${hackathon.year}.cqhacks.org`}>
         <span
           className={cn(
             "absolute right-[-2px] top-12 h-0.5 w-[70.71px] origin-top-right rotate-45",

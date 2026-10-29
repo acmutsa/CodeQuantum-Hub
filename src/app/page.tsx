@@ -6,7 +6,7 @@ import Footer from "@/src/landing/Footer";
 
 export default function Home() {
   return (
-    <main className="flex-col items-center gap-[5cqw] sm:gap-[3cqw]">
+    <main className="flex flex-col items-center gap-[5cqw] sm:gap-[3cqw]">
       <Hero />
       <CodeQuantum />
       <Iterations />

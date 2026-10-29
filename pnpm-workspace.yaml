@@ -6,3 +6,5 @@ minimumReleaseAgeExclude:
   - lucide-react@1.60.0
   - miniflare@5.20261023.1-beta
   - wrangler@4.154.0
+packages:
+  - "."
